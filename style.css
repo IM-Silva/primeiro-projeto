@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;   
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0,0,0);
+    background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(0,12,102,1) 45%, rgba(203,14,14,1) 83%, rgba(254,255,20,1) 100%);
+
+}
+
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    top: 15px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+
+}
+
+li:hover {
+    color: black;
+}
+
+body {
+    background: rgb(94,161,175);
+    background: radial-gradient(circle, rgba(94,161,175,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#logo {
+    position: relative;
+    left: 20px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://images8.alphacoders.com/107/thumb-1920-1072734.jpg');
+    background-position: 50% 0%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+    border-radius: 5px;
+    border: 2px ridge white;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.description {
+    color: white;
+    font-size: 17px;
+}
+
+.button {
+    color: white;
+    background-color: rgba(203,14,14,1);
+    font-size: 16px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 40px;
+    left: 30%;
+    cursor: pointer;
+    transition: .8s;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    color: rgba(203,14,14,1);
+    background-color: white;
+}
+
+.actor-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;   
+    color: white;
+}
+
+.cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns:repeat(6, 1fr) ;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    font-size: 17px;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.banner-1 {
+    background-image: url('https://f.i.uol.com.br/fotografia/2018/06/16/15291654655b253699a8c3f_1529165465_3x4_md.jpg');
+}
+
+.banner-1:hover {
+    background-image: url('https://capricho.abril.com.br/wp-content/uploads/2018/04/gettyimages-903109030.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://i.pinimg.com/originals/d4/19/a6/d419a6816f76feb1bccc0a840cce8118.jpg');
+}
+
+.banner-2:hover {
+    background-image: url('https://st4.depositphotos.com/1729220/26793/i/600/depositphotos_267938876-stock-photo-chris-pine-at-arrivals-for.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://paintbynumberscanvas.com/wp-content/uploads/2020/09/Antiope-wonder-woman-paint-by-number.jpg');
+}
+
+.banner-3:hover {
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/xD4LqU7mwT5DlE1XdA9f6SKOYCQ/844x84:2126x1366/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2020/04/06/959/n/1922398/830dceca5e8ba69c986c40.39289332_/i/Robin-Wright.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://i.pinimg.com/originals/c4/2c/a4/c42ca433e63327edcd3fe7cd6b176c8d.jpg');
+}
+
+.banner-4:hover {
+    background-image: url('https://i.pinimg.com/originals/8e/8a/33/8e8a33f03d2ec7ebeac0a5ca06eff156.jpg');
+}
+
+.banner-5 {
+    background-image: url('http://kungfukingdom.com/wp-content/uploads/2017/06/Sir-Patrick-Morgan-is-more-than-he-appears...jpg');
+}
+
+.banner-5:hover {
+    background-image: url('https://br.web.img3.acsta.net/pictures/19/03/20/21/37/4717261.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://preview.redd.it/b8p9i3oftdxy.jpg?auto=webp&s=aa4e6ba6676d40fed8559c183926cceab06f5275');
+}
+
+.banner-6:hover {
+    background-image: url('https://br.web.img2.acsta.net/pictures/16/03/29/14/56/123966.jpg');
+}
+
+span {
+    color: white;
+}
+
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(0,12,102,1) 45%, rgba(203,14,14,1) 83%, rgba(254,255,20,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    
+}
+
+.dev {
+    font-size: 17px;
+}
+
+span {
+    font-size: 13px;
+}
+
+#logo-1 {
+    height: 100px;
+}
+
