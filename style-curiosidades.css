@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Kdam Thmor Pro', sans-serif
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0,0,0);
+    background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(0,12,102,1) 45%, rgba(203,14,14,1) 83%, rgba(254,255,20,1) 100%);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;  
+    position: relative;
+    top: 20px;
+}
+
+
+nav {
+    width: 60%;
+}
+
+li {
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+}
+
+li:hover {
+    color: black;
+}
+
+#logo {
+    position: relative;
+    left: 20px;
+    height: auto;
+}
+body {
+    background: rgb(94,161,175);
+    background: radial-gradient(circle, rgba(94,161,175,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#mm {
+    height: auto;
+}
+#mm2 {
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 600px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 40px;
+
+}
+
+h2 {
+    margin-top: 30px;
+    color: white;
+    margin-left: 3px;
+   
+}
+
+p {
+    font-size: 17px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+}
+
+.texto-2 {
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    height: 450px;
+}
+
+.foto1 {
+    background-image: url('https://sm.ign.com/ign_pt/screenshot/default/gettyimages-688494296-h-2017_dsku.jpg');
+    border-radius: 25px;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.texto-3 {
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    height: 450px;
+    column-gap: 10px;
+}
+  
+.t3 {
+    margin-right:10px;
+}
+#i {
+    position: relative;
+    top: 10px;
+}
+#br {
+    position: relative;
+    top: 10px;
+}
+
+.foto2 {
+    background-image: url('http://nodeoito.com/wp-content/uploads/2017/05/2017_gal_gadot_wonder_woman-wide-600x375.jpg');
+    border-radius: 25px;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(0,12,102,1) 45%, rgba(203,14,14,1) 83%, rgba(254,255,20,1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.dev {
+    font-size: 17px;
+}
+
+span {
+    font-size: 13px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+}
+
+#logo-1 {
+    height: 100px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+#no-de-oito {
+    border-radius: 100px;
+}
