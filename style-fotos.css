@@ -158,3 +158,51 @@ span {
 #logo-1 {
     height: 100px;
 }
+
+.navigation{
+    display: none;
+}
+
+@media screen and (max-width: 620px){
+    header {
+        justify-content: center;
+    }
+    nav {
+        display: none;
+    }
+    #mm {
+        display: none;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+        column-gap: 30px;
+        margin-right: 10px;
+    }
+    .navigation{
+        display: inline;
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    li {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:440px){
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 9px;
+        width: 90%;
+        margin-right: 10px;
+    }
+    li{
+        font-size: 15px;
+    }
+}
